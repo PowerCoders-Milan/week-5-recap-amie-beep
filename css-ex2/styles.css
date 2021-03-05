@@ -1,0 +1,58 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    background-color: darkkhaki;
+    grid-column: 1/8;
+    text-align: center;
+    font-size: x-large;
+
+}
+.content1 {
+    background-color: blue;
+    grid-column: 1/3;
+    text-align: center;
+    font-size: x-large;
+
+    
+}
+.content2 {
+    background-color: brown;
+    grid-column: 3/6;
+    text-align: center;
+    font-size: x-large;
+
+}
+.content3 {
+    background-color: yellow;
+    grid-column: 6/8;
+    text-align: center;
+    font-size: x-large;
+
+    
+}
+.content4 {
+    background-color: violet;
+    grid-column: 1/6;
+    text-align: center;
+    font-size: x-large;
+
+    
+}
+.content5 {
+    background-color: pink;
+    grid-column: 6/8;
+    text-align: center;
+    font-size: x-large;
+
+}
+.footer {
+    background-color:lightseagreen;
+    grid-column: 1/8;
+    text-align: center;
+    font-size: x-large;
+
+}
